@@ -1,5 +1,9 @@
 import streamlit as st
 import json
+import sys
+sys.path.append('/Users/naomichimasumoto/.pyenv/versions/3.11.2/lib/python3.11/site-packages')
+import streamlit_lottie
+print(streamlit_lottie.__file__)
 from streamlit_lottie import st_lottie
 from urllib.request import urlopen
 
