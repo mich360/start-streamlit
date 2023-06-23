@@ -6,6 +6,7 @@ import requests
 import time
 st.title('初めてのStreamlitを試す')
 st.write("[前のページに戻る >](https://canape2020.stars.ne.jp/python/)")
+st.write('他のページ目次が見えない場合には左上 > をクリックして開いて下さい。')
 st.write('pythonのフレームstreamlitテストアプリです。')
 st.caption('プログレスバー表示されます、100まで終わった開く。')
 latest_iteration = st.empty()   #空のbarからスタートして100まで0.1秒毎　で100まで終わったら以下が開く
