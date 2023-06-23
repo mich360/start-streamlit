@@ -16,7 +16,7 @@ def main():
     st.title("Lottie Animation Example")
     
     # LottieファイルのURLを指定します
-    lottie_url = "https://assets8.lottiefiles.com/packages/lf20_OT15QW.json"
+    lottie_url = " https://assets8.lottiefiles.com/packages/lf20_OT15QW.json"
     
     # Lottieファイルを読み込みます
     animation_data = load_lottie_url(lottie_url)
