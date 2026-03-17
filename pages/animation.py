@@ -1,7 +1,7 @@
 import streamlit as st
 import json
 from urllib.request import Request, urlopen
-from streamlit_lottie import st_lottie  # ← ここに移動
+from streamlit_lottie import st_lottie
 
 def load_lottie_url(url: str):
     try:
