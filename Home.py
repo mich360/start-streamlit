@@ -7,8 +7,8 @@ st.title("初めてのStreamlitを試す")
 
 st.markdown("[前のページに戻る >](https://canape2020.stars.ne.jp/python/)")
 st.write("下のページ一覧から各ページへ移動できます。")
-st.write("pythonのフレーム Streamlit のテストアプリです。")
-st.caption("プログレスバーが表示され、完了後にページ一覧が見られます。")
+st.write("Pythonのフレーム Streamlit のテストアプリです。")
+st.caption("読み込み演出のあと、各デモページへ移動できます。")
 
 latest_iteration = st.empty()
 bar = st.progress(0)
