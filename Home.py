@@ -1,5 +1,4 @@
 import streamlit as st
-from pathlib import Path
 import time
 
 st.title("初めてのStreamlitを試す")
@@ -16,14 +15,4 @@ for i in range(100):
     bar.progress(i + 1)
     time.sleep(0.01)
 
-video_path = Path("data/sho.mov")
-
-if video_path.exists():
-    try:
-        with open(video_path, "rb") as video_file:
-            video_bytes = video_file.read()
-        st.video(video_bytes)
-    except Exception as e:
-        st.error(f"動画の読み込みでエラー: {e}")
-else:
-    st.warning("動画ファイル data/sho.mov が見つかりません。")
+st.success("アプリは正常に起動しました。")
